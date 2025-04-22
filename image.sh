@@ -1,8 +1,8 @@
 #!/bin/sh
 
 # Ganti dengan URL gambar yang sesuai
-URL_LOGIN="https://github.com/djani-ai/updater/login.gif"
-URL_BANNER="https://github.com/djani-ai/updater/banner.gif"
+URL_LOGIN="https://github.com/djani-ai/updater/blob/main/logo/login.gif"
+URL_BANNER="https://github.com/djani-ai/updater/blob/main/logo/banner.gif"
 wget -O /tmp/login.gif "$URL_LOGIN"
 wget -O /tmp/banner.gif "$URL_BANNER"
 # Ganti gambar login dan banner pada router
